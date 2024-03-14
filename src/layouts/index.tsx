@@ -1,6 +1,6 @@
 import { Link, Outlet } from "umi";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import styles from "./index.less";
 
 export default function Layout() {
