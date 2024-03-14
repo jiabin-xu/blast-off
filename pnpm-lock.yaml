@@ -4,11 +4,13 @@ specifiers:
   '@types/react': ^18.0.33
   '@types/react-dom': ^18.0.11
   '@vercel/analytics': ^1.2.2
+  '@vercel/speed-insights': ^1.0.10
   typescript: ^5.0.3
   umi: ^4.1.2
 
 dependencies:
   '@vercel/analytics': registry.npmjs.org/@vercel/analytics/1.2.2
+  '@vercel/speed-insights': registry.npmjs.org/@vercel/speed-insights/1.0.10
   umi: registry.npmjs.org/umi/4.1.2_atgb4f2nrgq7jzzm6ixei4xduy
 
 devDependencies:
@@ -2511,6 +2513,33 @@ packages:
         optional: true
     dependencies:
       server-only: registry.npmjs.org/server-only/0.0.1
+    dev: false
+
+  registry.npmjs.org/@vercel/speed-insights/1.0.10:
+    resolution: {integrity: sha512-4uzdKB0RW6Ff2FkzshzjZ+RlJfLPxgm/00i0XXgxfMPhwnnsk92YgtqsxT9OcPLdJUyVU1DqFlSWWjIQMPkh0g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@vercel/speed-insights/-/speed-insights-1.0.10.tgz}
+    name: '@vercel/speed-insights'
+    version: 1.0.10
+    requiresBuild: true
+    peerDependencies:
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19
+      svelte: ^4
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
     dev: false
 
   registry.npmjs.org/@vitejs/plugin-react/4.0.0_vite@4.3.1:
